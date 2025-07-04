@@ -310,6 +310,223 @@ main {
     font-weight: bold;
 }
 
+/* --- BLOG PREVIEW SECTION --- */
+.blog-preview {
+    margin-top: 2rem;
+}
+
+.blog-item {
+    background: var(--section-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.2s ease;
+}
+
+.blog-item:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.blog-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.blog-item h3 a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.blog-item h3 a:hover {
+    color: var(--primary-color);
+}
+
+.blog-meta {
+    color: var(--subtle-text-color);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.blog-item p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.read-more {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.read-more:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
+/* --- BLOG POSTS --- */
+.blog-post {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.blog-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.blog-meta {
+    color: var(--subtle-text-color);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.blog-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.blog-content h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+}
+
+.blog-content h4 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.blog-content p {
+    margin-bottom: 1.5rem;
+}
+
+.blog-content ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.blog-content li {
+    margin-bottom: 0.5rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.highlight-box {
+    background: var(--section-bg-color);
+    border-left: 4px solid var(--primary-color);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--section-bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    display: block;
+}
+
+.stat-label {
+    color: var(--subtle-text-color);
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.day-entry {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.day-entry:last-child {
+    border-bottom: none;
+}
+
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.day-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.day-date {
+    color: var(--subtle-text-color);
+    font-size: 0.9rem;
+}
+
+.day-subtitle {
+    font-style: italic;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.milestone {
+    background: linear-gradient(135deg, var(--primary-color), #667eea);
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.milestone strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
 /* --- FOOTER --- */
 footer {
     text-align: center;
