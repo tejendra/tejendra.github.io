@@ -132,15 +132,4 @@ document.addEventListener('DOMContentLoaded', () => {
       hero.style.transform = `translateY(${rate}px)`;
     });
   }
-
-  // --- Enhanced hover effects for skill tags ---
-  skillTags.forEach(tag => {
-    tag.addEventListener('mouseenter', function() {
-      this.style.transform = 'translateY(-4px) scale(1.05)';
-    });
-    
-    tag.addEventListener('mouseleave', function() {
-      this.style.transform = 'translateY(0) scale(1)';
-    });
-  });
 });

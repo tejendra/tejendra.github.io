@@ -219,37 +219,33 @@ main {
 /* --- EXPERIENCE TIMELINE --- */
 .timeline .job {
     margin-bottom: 2.5rem;
-    padding-left: 1.5rem;
-    border-left: 3px solid var(--border-color);
-    transition: all 0.3s ease;
+    padding: 1.5rem;
+    border-left: 3px solid var(--primary-color);
     position: relative;
-}
-
-.timeline .job:hover {
-    border-left-color: var(--primary-color);
-}
-
-.timeline .job:hover::before {
-    background: var(--primary-color);
+    background: var(--section-bg-color);
+    border-radius: 0 8px 8px 0;
+    box-shadow: var(--shadow-sm);
 }
 
 .job-date {
     font-size: 0.875rem;
     color: var(--subtle-text-color);
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    display: block;
 }
 
 .job ul, .achievements-list ul, .education-list ul {
     padding-left: 0;
     list-style: none;
+    margin: 0;
 }
 
 .job li, .achievements-list li, .education-list li {
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    margin-bottom: 0.75rem;
+    padding-left: 1.25rem;
     position: relative;
     line-height: 1.6;
 }
@@ -260,7 +256,7 @@ main {
     left: 0;
     color: var(--primary-color);
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /* --- SKILLS SECTION --- */
@@ -640,7 +636,18 @@ footer {
     }
     
     .timeline .job {
-        padding: 1.5rem;
+        padding: 1.25rem;
+        margin-bottom: 2rem;
+        border-radius: 0 6px 6px 0;
+    }
+    
+    .job li, .achievements-list li, .education-list li {
+        padding-left: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .job li::before, .achievements-list li::before, .education-list li::before {
+        font-size: 1em;
     }
     
     .content-section {
@@ -663,5 +670,26 @@ footer {
     
     h2 {
         font-size: 1.5rem;
+    }
+    
+    .timeline .job {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        border-radius: 0 4px 4px 0;
+    }
+    
+    .job-date {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .job li, .achievements-list li, .education-list li {
+        padding-left: 0.75rem;
+        margin-bottom: 0.5rem;
+        font-size: 0.95rem;
+    }
+    
+    .job li::before, .achievements-list li::before, .education-list li::before {
+        font-size: 0.9em;
     }
 }
