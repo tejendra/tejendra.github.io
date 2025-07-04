@@ -15,6 +15,18 @@
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
+/* Dark mode variables */
+[data-theme="dark"] {
+    --bg-color: #0f172a;
+    --text-color: #f1f5f9;
+    --subtle-text-color: #94a3b8;
+    --border-color: #334155;
+    --section-bg-color: #1e293b;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.3), 0 4px 6px -4px rgb(0 0 0 / 0.3);
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
@@ -97,6 +109,16 @@ a:hover {
     opacity: 0.5;
 }
 
+/* Dark mode hero styles */
+[data-theme="dark"] .hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+[data-theme="dark"] .hero::before {
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23334155' fill-opacity='0.4'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.3;
+}
+
 .hero .container {
     position: relative;
     z-index: 1;
@@ -151,6 +173,26 @@ a:hover {
     height: 20px;
 }
 
+/* --- DARK MODE TOGGLE --- */
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.theme-toggle:hover {
+    background: var(--section-bg-color);
+    color: var(--primary-color);
+}
+
 /* --- NAVIGATION --- */
 nav {
     position: sticky;
@@ -161,6 +203,10 @@ nav {
     padding: 1rem 0;
     z-index: 1000;
     box-shadow: var(--shadow-sm);
+}
+
+[data-theme="dark"] nav {
+    background-color: rgba(15, 23, 42, 0.95);
 }
 
 nav .container {
