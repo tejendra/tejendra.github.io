@@ -66,23 +66,13 @@
     document.getElementById('post-content').innerHTML = post.bodyHtml || '';
   }
 
-  function loadFromEmbedded(slug) {
-    if (typeof window.__POSTS__ !== 'undefined' && window.__POSTS__[slug]) {
-      render(window.__POSTS__[slug]);
-      return true;
-    }
-    return false;
-  }
-
   function loadPost(slug) {
     if (!slug || !/^[a-z0-9-]+$/i.test(slug)) {
       showError('Missing or invalid post slug. Use ?post=slug (e.g. ?post=bike-ride).');
       return;
     }
 
-    if (loadFromEmbedded(slug)) return;
-
-    fetch('posts/' + slug + '.md')
+    fetch('./posts/' + slug + '.md')
       .then(function (res) {
         if (!res.ok) throw new Error('Post not found: ' + slug);
         return res.text();
