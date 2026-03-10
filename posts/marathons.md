@@ -4,7 +4,7 @@ date: 2024-01-01
 meta: Running · Marathons · Personal
 ---
 
-I’ve run five marathons so far:
+I’ve ran five marathons so far:
 
 1. **Marine Corps Marathon** — Washington, D.C. area  
 2. **Walt Disney World Marathon** — Orlando  

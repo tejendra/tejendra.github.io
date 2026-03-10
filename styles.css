@@ -176,6 +176,9 @@ th {
 }
 
 .theme-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
     padding: 0.5rem;
     border: none;
     background: transparent;
@@ -189,10 +192,37 @@ th {
     background: var(--border);
 }
 
-.theme-toggle::after {
-    content: 'Dark Mode';
+.theme-toggle .theme-icon {
+    display: block;
+    line-height: 0;
+    color: var(--text-muted);
 }
 
-[data-theme="dark"] .theme-toggle::after {
-    content: 'Light Mode';
+.theme-toggle .theme-icon-moon {
+    display: block;
+}
+
+[data-theme="dark"] .theme-toggle .theme-icon-moon {
+    display: none;
+}
+
+.theme-toggle .theme-icon-sun {
+    display: none;
+}
+
+[data-theme="dark"] .theme-toggle .theme-icon-sun {
+    display: block;
+}
+
+/* Footer */
+footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+
+footer .disclaimer {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin: 0;
 }
