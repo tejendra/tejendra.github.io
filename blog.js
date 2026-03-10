@@ -72,7 +72,11 @@
       return;
     }
 
-    fetch('./posts/' + slug + '.md')
+    // Root-relative URL so fetch works from any path (e.g. github.io/blog.html)
+    var base = window.location.pathname.replace(/\/[^/]*$/, '/');
+    var url = base + 'posts/' + slug + '.md';
+
+    fetch(url)
       .then(function (res) {
         if (!res.ok) throw new Error('Post not found: ' + slug);
         return res.text();
@@ -89,7 +93,7 @@
         render({ title: title, metaHtml: metaHtml, bodyHtml: bodyHtml });
       })
       .catch(function (err) {
-        showError((err.message || 'Could not load post.') + ' Run npm run build and reload, or serve the site (e.g. npx serve .) to avoid CORS.');
+        showError(err.message || 'Could not load post.');
       });
   }
 
