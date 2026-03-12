@@ -3,28 +3,26 @@ title: "What we lose when AI writes the code"
 date: 2026-03-10
 ---
 
-**Purpose**: What are the implications of not understanding a codebase, and if that's okay.
+I have been using AI tools, primarily Cursor, everyday for almost 2 years and like everyone else, I find myself writing less code and reviewing AI generated code. My current workflow is to write a detailed spec of the thing I want the agent to implement then point the agent to that Markdown file. I iterate on the solution with the agent via chat until I'm satisfied with the results. With this new way of coding, I've realized that I no longer have a deep and thorough understanding of the codebase as I did when I wrote the code manually. That got me wondering, how important is it to be intimately familar with the codebase in the age of AI?
 
-I have been using AI tools (primarily Cursor) in my day to day work for almost 2 years and like everyone else, I find myself writing less code and reviewing AI generated code. My current workflow is to write a detailed spec of the thing I want the agent to implement then point the agent to that Markdown file. I iterate on the solution with the agent until I am satisfied with the results. With this new method of coding, I've realized that I no longer have a deep and thorough understanding of the codebase as I did when I wrote the code manually. That got me wondering, how important is it to be intimately familar with the codebase nowadays.
+## Byproduct of writing code leads to deeper understanding
 
-## Byproduct of writing code leads to deeper understanding vs AI written code
+In the past, onboarding as a new developer to a project usually followed this timeline:
 
-In the past, onboarding as a new developer to a project usually looked like this:
-
-- Week 0 - 1: Setting up the project to get it running locally
+- Week 0 - 1: Setting up the project to run locally
 - Weeks 1 - 2: Fixing small defacts or working on easy first issues
-- Weeks 2 - 3: Contributing your first new feature
-- Weeks 4 and beyond: Implementing full stack features
+- Weeks 2 - 3: Implementing small features that span a handful of files
+- Weeks 4 and beyond: Implementing features that span across the fullstack of the project
 
-I recall learning the most about a project during the first few weeks of onboarding. It gave me the opportunity to update outdated onboarding documentation for the project. I get to learn about the build system, what services and libraries are being used, and how everything is wired together, albeit it's a 10,000 feet overview. I start to understand the history of why things were done the way they are.
+I recall learning the most about a project during the first few weeks of onboarding. It gave me the opportunity to update outdated project setup documentation. I got to learn about the build system, what services and libraries are being used, and how everything is wired together. I start to understand the history of why things were done the way they are.
 
-Once I have the project running locally, I can pick up "Good First Issues". Those issues allow me to understand the codebase through bug fixes or small enhancements. As I navigate through the codebase, I understand how it's structured, how the code flows and make note of things I don't fully understand to revisit. I start console logging to debug the root cause and within a few minutes, I have 15 files open. I find the root cause, apply a fix and when all the tests pass it gives me a sense of accomplishment.
+Once I have the project running locally, I can pick up good first issues. Those issues allow me to understand the codebase through bug fixes or small enhancements. As I navigate through the codebase, I understand how it's structured, how the code flows and make note of things I don't fully understand to revisit. When fixing a bug, I start adding console log statements to debug the root cause and within a few minutes, I have 15 files open. I find the root cause, apply a fix and when all the tests pass it gives me a sense of accomplishment. That sense of accomplishment does not come from fixing the bug, which I might have seen in the past. Instead, it comes from knowing that I was able to dive deep into an existing codebase, navigate around it to pinpoint the issue.
 
-As I transition from being the new developer on the team, I start anchoring features that touch cross full stack. That helps me understand how business rules are baked into the code and wonder why did it was implement it like that. I make mistakes and learn from them, I miss  and miss edge cases and start to unravel the spegetthi code.
+As I transition from being the new developer on the team, I start anchoring features that touch cross full stack. Working on those features help me understand the business domain, how business logic is baked into the code and edge cases. I may miss those edge cases and end up breaking the app (even though the tests might still pass) but its these mistakes that build a deeper understanding of how the code flows and how modules interact with each other.
 
-This period marks the beginning of gathering domain knowledge that happens by getting your hands dirty, by doing and fixing and documenting. The byproduct of being knee deep in the codebase leads to this strangely weird, intimate relationship with the codebase. You get to a point where when you review a pull request, you immediately know if the changes will break a specific edge case or if a particular condition wasn't covered. You read a bug work item and know exactly why and where it exists. Writing code created understanding as a side effect.****
+This period marks the beginning of building domain knowledge which happens by getting your hands dirty, by doing and fixing and documenting. The byproduct of being knee deep in the codebase leads to this strangely weird, intimate relationship with the codebase. You get to a point where when you review a pull request, you immediately know if the change will break a specific edge case or if a particular condition wasn't covered. You read a bug work item and know exactly why and where it exists. Writing the code created understanding as a side effect.
 
-Now, I miss the feeling of not being one with the codebase. There was a sense of pride in ones code and ownership.
+As I prompt agents to implement and fix on my behalf, I miss the feeling of not being one with the codebase. There was a sense of pride in ones code and ownership. It feels like that is disappearing a little, day by day.
 
 ## What happens if we don't understand the codebase
 
