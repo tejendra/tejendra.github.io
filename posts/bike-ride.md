@@ -1,5 +1,5 @@
 ---
-title: "My 3,000 Mile Journey from Maine to Florida"
+title: "3,000 miles on the East Coast Greenway"
 date: 2024-05-04
 ---
 

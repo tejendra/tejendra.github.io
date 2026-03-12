@@ -1,5 +1,5 @@
 ---
-title: "Five marathons — Marine Corps, Disney, Publix Atlanta, Vermont City, Chicago"
+title: "What five marathons taught me about showing up"
 date: 2024-01-01
 ---
 

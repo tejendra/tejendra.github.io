@@ -1,5 +1,5 @@
 ---
-title: "PicStream — Share vacation photos in full quality"
+title: "PicStream"
 date: 2025-03-09
 ---
 

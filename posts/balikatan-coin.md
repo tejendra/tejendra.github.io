@@ -1,5 +1,5 @@
 ---
-title: "1-star challenge coin from Balikatan Exercise, Philippines"
+title: "Being recognized with a challenge coin from the US Air Force"
 date: 2024-01-01
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "How important is it to understand a codebase in the age of AI"
+title: "What we lose when AI writes the code"
 date: 2026-03-10
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Commencement speech — UMass Dartmouth Computer Engineering, 2015"
+title: "What I told my graduating class from the podium"
 date: 2015-05-01
 ---
 

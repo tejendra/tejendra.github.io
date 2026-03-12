@@ -1,5 +1,5 @@
 ---
-title: "Vipassana meditation — 10-day silent retreats since 2016"
+title: "Why I keep going back to 10 days of silence"
 date: 2024-01-01
 ---
 
