@@ -11,7 +11,6 @@ Write posts here in **Markdown** (`.md`). They are loaded on the fly by `blog.ht
     ---
     title: "Your Post Title"
     date: 2025-03-09
-    meta: Category · Optional tagline
     ---
     ```
 
@@ -19,3 +18,9 @@ Write posts here in **Markdown** (`.md`). They are loaded on the fly by `blog.ht
 4. Open **`blog.html?post=your-slug`** in the browser (or link from `index.html`).
 
 No build step required. The site fetches `posts/your-slug.md` and converts it to HTML in the browser using [marked](https://marked.js.org/).
+
+## Run locally
+
+```bash
+npx live-server
+```

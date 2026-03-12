@@ -24,7 +24,7 @@
   function formatDate(str) {
     if (!str) return '';
     var d = new Date(str);
-    return isNaN(d.getTime()) ? str : d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    return isNaN(d.getTime()) ? str : d.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
   }
 
   function buildMeta(fm) {

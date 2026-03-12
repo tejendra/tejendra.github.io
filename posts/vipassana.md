@@ -1,7 +1,6 @@
 ---
 title: "Vipassana meditation — 10-day silent retreats since 2016"
 date: 2024-01-01
-meta: Meditation · Practice · Vipassana
 ---
 
 I’ve been practicing vipassana meditation since 2016 and attended many 10-day silent meditation retreats.

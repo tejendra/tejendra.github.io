@@ -1,7 +1,6 @@
 ---
 title: "My 3,000 Mile Journey from Maine to Florida"
 date: 2024-05-04
-meta: Last Update March 9, 2026
 ---
 
 In May 2024, I embarked on another transformative journey. I started a 3,000-mile bicycle ride from Calais, Maine to Key West, Florida along the East Coast Greenway. This isn't just a physical challenge; it's a meditation in motion, a test of resilience, and a journey where the destination is less important than the journey itself. Below is my ongoing story, documented day by day as I pedal south along the East Coast Greenway.

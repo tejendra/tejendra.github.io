@@ -1,7 +1,6 @@
 ---
 title: "Commencement speech — UMass Dartmouth Computer Engineering, 2015"
 date: 2015-05-01
-meta: University of Massachusetts Dartmouth · Class of 2015
 ---
 
 In 2015 I had the honor of giving the commencement speech for my graduating class at the University of Massachusetts Dartmouth.

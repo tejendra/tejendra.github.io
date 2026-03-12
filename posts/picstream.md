@@ -1,7 +1,6 @@
 ---
 title: "PicStream — Share vacation photos in full quality"
 date: 2025-03-09
-meta: Web App · Photo Sharing · Project
 ---
 
 **PicStream** is a web app I'm working on so you can share original, full resolution pics and videos with friends and family.

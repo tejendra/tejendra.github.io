@@ -1,7 +1,6 @@
 ---
 title: "1-star challenge coin from Balikatan Exercise, Philippines"
 date: 2024-01-01
-meta: Military · Philippines · Recognition
 ---
 
 I received a 1-star challenge coin from Brigadier General Korey Amundson for my work during the Balikatan Exercise in the Philippines.

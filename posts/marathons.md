@@ -1,7 +1,6 @@
 ---
 title: "Five marathons — Marine Corps, Disney, Publix Atlanta, Vermont City, Chicago"
 date: 2024-01-01
-meta: Running · Marathons · Personal
 ---
 
 I’ve ran five marathons so far:

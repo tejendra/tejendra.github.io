@@ -1,7 +1,7 @@
 /* Variables */
 :root {
     --bg: #f8f7f5;
-    --text: #1a1a1a;
+    --text: #414141;
     --text-muted: #666;
     --border: #e0e0e0;
     --link: #1a1a1a;
@@ -34,52 +34,80 @@ body {
     margin: 0 auto;
     padding: 1.5rem;
     font-family: var(--font-body);
-    font-size: 1.25rem;
-    line-height: 1.7;
+    font-size: 1.2rem;
+    line-height: 1.6;
     color: var(--text);
     background: var(--bg);
 }
 
-/* Layout: header → nav → main → article */
-header {
-    margin: 1.5rem 0 2rem 0;
-}
-
-header nav {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-}
 
 article {
     margin-bottom: 2.5rem;
 }
 
 /* Typography: headings */
-h2 {
-    font-size: 1.25rem;
+
+/* Shared heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.01em;
+}
+
+h1 {
+    font-size: 1.9rem;
     font-weight: 600;
-    margin: 2.5rem 0 1rem;
-    color: var(--text);
-    text-transform: uppercase;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+
+    /* text-transform: uppercase; */
 }
 
 h3 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin: 2.25rem 0 0.75rem;
-    color: var(--text);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-top: 1.75rem;
+    margin-bottom: 0.25rem;
 }
 
 h4 {
-    font-size: 1.0625rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+h5 {
+    font-size: 1rem;
     font-weight: 600;
-    margin: 1.75rem 0 0.5rem;
-    color: var(--text);
-    border-bottom: none;
+    line-height: 1.45;
+    margin-top: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 
 /* Typography: body text & links */
@@ -169,10 +197,18 @@ th {
 }
 
 /* Components */
-.meta {
-    font-size: 0.875rem;
+
+h1.post-title {
+    font-size: 2.7rem;
+    font-weight: 600;
+    line-height: 1.15;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.post-meta {
     color: var(--text-muted);
-    margin-bottom: 0.5rem;
+    margin-bottom: 3rem;
 }
 
 .theme-toggle {

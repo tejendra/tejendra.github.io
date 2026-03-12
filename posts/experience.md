@@ -1,7 +1,6 @@
 ---
 title: "Professional Experience"
 date: 2025-03-09
-meta: Resume · Engineering & Leadership
 ---
 
 ## Associate Director of AI & Sofware Engineering – Kyndryl (Remote)
