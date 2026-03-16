@@ -1,7 +1,7 @@
 ---
-title: "What we lose when AI writes the code"
+title: "What We Lose When AI Writes the Code: Our Codebase"
 date: 2026-03-10
-description: "How writing code by hand built understanding of the codebase—and what we lose when AI writes the code instead."
+description: "How writing code by hand built understanding of the codebase and what we lose when AI writes the code instead."
 keywords: "AI coding, Cursor, code review, codebase understanding, software development, intent-based programming"
 ---
 
