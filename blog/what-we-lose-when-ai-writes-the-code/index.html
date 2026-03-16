@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="How writing code by hand built understanding of the codebase—and what we lose when AI writes the code instead.">
+    <meta name="keywords" content="AI coding, Cursor, code review, codebase understanding, software development, intent-based programming">
+    <meta name="author" content="Tejendra Patel">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="yandexbot" content="index, follow">
+
+    <title>What we lose when AI writes the code — Tejendra Patel</title>
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23e5e5e5' rx='8'/><text x='50' y='74' font-family='Times New Roman' font-size='72' font-weight='700' text-anchor='middle' fill='%231a1a1a'>T</text></svg>">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="blog-page">
+    <header>
+        <nav class="header-nav">
+            <a href="../../index.html" style="border-bottom: none;">
+                <h1>Tejendra Patel</h1>
+            </a>
+            <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon theme-icon-sun" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4" />
+                        <path
+                            d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+                    </svg>
+                </span>
+                <span class="theme-icon theme-icon-moon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                    </svg>
+                </span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        
+    <article>
+      <header>
+        <h1 class="post-title">What we lose when AI writes the code</h1>
+        <p class="post-meta"><time datetime="2026-03-10">March 2026</time></p>
+      </header>
+      <div class="post-content"><p>I have been using AI tools, primarily Cursor, every day for almost 2 years and like everyone else, I find myself writing less code and reviewing AI-generated code. By having my AI companion write the code, I&#39;ve lost something I used to hold near and dear: the intimate familiarity of the codebase.</p>
+<p>Writing code manually created understanding as a side effect.
+With AI, we are losing that understanding.</p>
+<h2>Writing code creates understanding</h2>
+<p>In the past, onboarding as a new developer to a project usually followed this timeline:</p>
+<ul>
+<li><strong>Week 0 - 1</strong>: Setting up the project to run locally</li>
+<li><strong>Weeks 1 - 2</strong>: Fixing small defects or working on easy first issues</li>
+<li><strong>Weeks 2 - 3</strong>: Implementing small features that span a handful of files</li>
+<li><strong>Weeks 4 and beyond</strong>: Implementing features that span across the full stack of the project</li>
+</ul>
+<p>I learned the most about a project during the first few weeks of onboarding. It gave me the opportunity to update outdated project setup documentation. I got to learn about the build system, what services and libraries are being used, and how everything is wired together. I began to understand the history of why things were done the way they are.</p>
+<p>I began working on simple first issues once I had the project running locally. Those issues allow me to understand the codebase through bug fixes or small enhancements. As I navigate through the codebase, I learn how it&#39;s structured, how the code flows, and I make note of things I don&#39;t fully understand. I start adding console log statements to debug the root cause and within a few minutes, I have 15 files open. Completing these first issues gives me a sense of accomplishment. That sense of accomplishment does not come from fixing the bugs, which I might have seen in the past. Instead, it comes from knowing that I was able to dive deep into an unfamiliar codebase, navigate around it to pinpoint the issue.</p>
+<p>After I&#39;ve gained enough understanding, I start anchoring features that span the full stack. Working on those features helps me understand the business domain, how business logic is baked into the code and what the edge cases are. I may forget to take those edge cases into consideration and end up breaking the app (even though the tests might still pass) but it&#39;s these mistakes that build a deeper understanding of how the code flows and how modules interact with each other.</p>
+<p>The byproduct of being knee-deep in the codebase leads to forming an intimate relationship with it. You get to a point where you and the codebase become one. You refactor the code, improve performance and stability, and you have pride in the code you wrote. When you review a pull request, you immediately sense code smell even though you can&#39;t pinpoint it right away. You read a bug work item and know exactly why and where it exists.</p>
+<h2>Reviewing code doesn&#39;t create understanding</h2>
+<p>I remember my first time using Cursor. I prompted it to make a minor change to a React component. I felt my codebase was desecrated when it directly modified my code. I would&#39;ve appreciated if Cursor gave me code snippets in chat which I could verify and apply if I agreed. This was due to both a lack of trust in the models and fear of giving up control of the code to AI. Fast forward to today, I&#39;m spending more time in markdown files writing requirements, constraints, examples, and outcomes for my AI agent to go build and review.</p>
+<p>AI agents can write more code over a weekend than I have in my entire career.</p>
+<p>If I let agents write code at that speed, I do not have the cognitive ability to review each line it produces. When that does happen, the codebase as we know it cannot be managed by humans and we will become the bottleneck if we need to review every change AI makes.</p>
+<p>As I delegate more of the coding to AI, I am starting to feel an erosion of control over the codebase. Reviewing code doesn&#39;t create the same neural networks in the brain that are essential for learning and information encoding as writing code does. The codebase is no longer an artifact we can completely own and fully understand.</p>
+<h2>Not understanding code becomes a risk</h2>
+<p>Would the maintainers of Bitcoin Core or the React project accept a 50-line change pull request from a developer who has never contributed to the codebase? Let alone a 10-line changed PR? What if they also added new tests? Without the deep understanding of a codebase, it is difficult for developers to understand the implications of their changes. Even with well-written tests, you lose confidence in your changes.</p>
+<p>AI agents can write good code; more code than we can review, and they&#39;re not going anywhere. Therefore, the codebase cannot remain the primary source of truth of what the developer intended and what AI agents wrote. This leads to the creation of another layer of abstraction to programming. The same way Assembly was replaced with high-level programming languages, those same programming languages are being replaced with natural language. My prediction is for a new intent-based programming language, that abstracts away the codebase as we know it and we will be programming intent, not the how.</p>
+<p>For decades, developers understood systems by writing code. AI breaks that feedback loop. To scale with AI, we need a system where we can explicitly define requirements, constraints, and outcomes that are verifiable without having to look at the underlying code AI produced.</p>
+</div>
+    </article>
+    </main>
+
+    <footer>
+        <p class="disclaimer">Tejendra uses this site to express and challenge the ideas and thoughts that come to his
+            mind.
+            The views expressed are his own and do not represent his current or past employers or any affiliated
+            organizations.</p>
+    </footer>
+
+    <script src="../../script.js"></script>
+</body>
+
+</html>

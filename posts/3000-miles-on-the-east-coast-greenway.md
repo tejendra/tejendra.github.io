@@ -1,6 +1,8 @@
 ---
 title: "3,000 miles on the East Coast Greenway"
-date: 2024-05-04
+date: 2025-10-04
+description: "A 3,000-mile bicycle journey from Maine to Key West along the East Coast Greenway. A meditation in motion and test of resilience, documented day by day."
+keywords: "East Coast Greenway, bicycle touring, long-distance cycling, Maine to Florida, bike ride, cycling adventure"
 ---
 
 In May 2024, I embarked on another transformative journey. I started a 3,000-mile bicycle ride from Calais, Maine to Key West, Florida along the East Coast Greenway. This isn't just a physical challenge; it's a meditation in motion, a test of resilience, and a journey where the destination is less important than the journey itself. Below is my ongoing story, documented day by day as I pedal south along the East Coast Greenway.

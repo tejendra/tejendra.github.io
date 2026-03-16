@@ -1,6 +1,8 @@
 ---
 title: "Why I keep going back to 10 days of silence"
 date: 2024-01-01
+description: "Why I've practiced vipassana meditation since 2016 and keep attending 10-day silent retreats in the tradition of S.N. Goenka."
+keywords: "vipassana, meditation, 10-day retreat, Goenka, silent meditation, mindfulness"
 ---
 
 I’ve been practicing vipassana meditation since 2016 and attended many 10-day silent meditation retreats.

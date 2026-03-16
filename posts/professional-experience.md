@@ -1,6 +1,9 @@
 ---
 title: "Professional Experience"
 date: 2025-03-09
+description: "Tejendra Patel's career history. Associate Director of AI at Kyndryl, Lead Engineer at Raft, and roles at Akamai, Westrock, and more."
+keywords: "Tejendra Patel, resume, software engineering, Kyndryl, Raft, Kessel Run, career, tech leadership"
+category: resume
 ---
 
 ## Associate Director of AI & Sofware Engineering – Kyndryl (Remote)

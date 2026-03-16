@@ -1,6 +1,9 @@
 ---
 title: "PicStream"
 date: 2025-03-09
+category: project
+description: "PicStream is a web app for sharing full-resolution photos and videos with friends and family—no account required, no compression, no storage limits."
+keywords: "PicStream, photo sharing, full resolution, video sharing, no account, seed phrase, album sharing"
 ---
 
 **PicStream** is a web app I'm working on so you can share original, full resolution pics and videos with friends and family.

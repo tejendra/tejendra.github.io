@@ -1,6 +1,6 @@
 ---
 title: "Markdown test — all common syntax"
-date: 2025-03-10
+date: 2000-03-10
 meta: Testing · Reference · Markdown
 ---
 
@@ -26,7 +26,7 @@ Strikethrough: ~~deleted text~~.
 
 ## Links and images
 
-An [internal link](blog.html?post=bike-ride) and an [external link](https://example.com). Auto-links: <https://example.com>.
+An [internal link](/blog/3000-miles-on-the-east-coast-greenway/) and an [external link](https://example.com). Auto-links: <https://example.com>.
 
 ![Placeholder image](https://via.placeholder.com/600x200/f5f5f5/666?text=Image+placeholder)
 

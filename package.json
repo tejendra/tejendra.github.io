@@ -1,0 +1,11 @@
+{
+  "name": "tejendra.github.io",
+  "private": true,
+  "scripts": {
+    "build:posts": "node build-posts.js",
+    "build": "npm run build:posts"
+  },
+  "devDependencies": {
+    "marked": "^15.0.0"
+  }
+}

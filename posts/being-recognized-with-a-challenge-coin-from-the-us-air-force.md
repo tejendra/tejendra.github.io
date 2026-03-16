@@ -1,6 +1,8 @@
 ---
 title: "Being recognized with a challenge coin from the US Air Force"
-date: 2024-01-01
+date: 2024-05-01
+description: "Receiving a challenge coin from Brigadier General Korey Amundson for work during the Balikatan Exercise; an annual joint military exercise between the Philippines and the United States."
+keywords: "challenge coin, US Air Force, Balikatan, Philippines, military recognition, Brigadier General"
 ---
 
 I received a 1-star challenge coin from Brigadier General Korey Amundson for my work during the Balikatan Exercise in the Philippines.
